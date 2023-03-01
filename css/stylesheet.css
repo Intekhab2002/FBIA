@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    /* background-color: rgba(240, 248, 255, 0.8) */
+}
+.fbia .fbia_header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(206, 204, 204, 0.468)
+}
+
+
+.fbia .fbia_header .fbia_menu{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    font-size: larger;
+    
+    align-items: center; 
+}
+.fbia .fbia_header .fbia_menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.fbia .fbia_header .fbia_menu a:hover{
+color: darkolivegreen;
+}
+.fbia_about{
+    display: flex;
+    justify-content: space-between;
+}
+.fbia .fbia_header img{
+    height: 100px;
+    width: 150px;
+    
+}
