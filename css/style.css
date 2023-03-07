@@ -33,17 +33,25 @@ color: darkolivegreen;
     
 }
 /* Jafri */
-.fbia .fbia_about_detail{
-    position: relative;
-    top: 250px;
-    left: 180px;
+.fbia .fbia_about .fbia_about_detail .fbia_about_photo{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.fbia .fbia_about{
+    justify-content: center;
+}
+
+.fbia .fbia_about{
+    align-items: center;
 }
 
 .fbia .fbia_about_detail a{
     border: 2px solid rgb(89, 116, 178);
     padding: 6px;
     margin-top: 5px;
-    position: absolute;
     text-decoration: none;
     color:rgba(12, 174, 233, 0.936);
     font-size: 20px;
@@ -60,12 +68,6 @@ color: darkolivegreen;
     width: 630px;
 }
 
-.fbia .fbia_about .fbia_about_photo{
-    justify-content: space-between;
-    position: absolute;
-    left: 810px;
-    
-}
 .fbia .fbia_about_detail a:hover{
     background-color: rgba(226, 191, 75, 0.899);
 }
@@ -76,33 +78,28 @@ color: darkolivegreen;
     font-size: 30px;
     font-weight: bold;
     color:rgb(80, 117, 163);
-    padding: 3px;
+    
 }
 
 .fbia .fbia_about_detail .txt2{
+    text-transform: uppercase;
     font-size: 30px;
     font-weight: bold;
     color:rgb(80, 117, 163);
-    padding: 3px;
+    
 }
 
 .fbia .fbia_about_detail .txt3{
+    text-transform: uppercase;
     font-size: 30px;
     font-weight: bold;
     color: rgb(80, 117, 163);
-    padding: 3px;
-}
-
-.fbia .fbia_about_detail{
-    position: relative;
-    top: 250px;
-    left: 180px;
+    
 }
 
 .fbia .fbia_about_detail a{
     border: 2px solid rgb(89, 116, 178);
     padding: 6px;
-    margin-top: 5px;
     position: absolute;
     text-decoration: none;
     color:rgba(12, 174, 233, 0.936);
@@ -113,31 +110,13 @@ color: darkolivegreen;
 .fbia .fbia_about_detail .decorate{
     color:rgba(226, 191, 75, 0.899);
     text-transform: uppercase;
-}
-
-.fbia .fbia_about_photo img{
-    height: 400px;
-    width: 630px;
-}
-
-.fbia .fbia_about .fbia_about_photo{
-    justify-content: space-between;
-    position: absolute;
-    top: 280px;
-    left: 810px;
+}  
     
-}
+
 .fbia .fbia_about_detail a:hover{
     background-color: rgba(226, 191, 75, 0.899);
 }
 
-.txt1, .txt2, .txt3, .txt4, .txt5{
-    color: rgb(89, 116, 178);
-    font-size: 40px;
-    position: relative;
-    animation: textreveal 3s forwards;
-   
-}
 
 /*safeer */
 
