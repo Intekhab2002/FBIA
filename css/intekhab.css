@@ -1,3 +1,36 @@
+*{
+    margin: 0;
+    /* background-color: rgba(240, 248, 255, 0.8) */
+}
+
+.fbia .fbia_header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(94 139 61 / 79%);
+    padding: 0px 70px;
+}
+
+.fbia .fbia_header .fbia_menu{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    font-size: larger;
+    align-items: center; 
+}
+
+.fbia .fbia_header .fbia_menu li{
+    overflow: hidden;
+}
+
+.fbia .fbia_header .fbia_menu a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    transition: transform 0.5s;
+    letter-spacing: 0.8px;
+    position: relative;
+    
+}
 .fbia .fbia_header .fbia_menu a::after{
     content: attr(data-attr);
     position: absolute;
