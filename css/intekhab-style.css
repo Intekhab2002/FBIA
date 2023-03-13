@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    /* background-color: rgba(240, 248, 255, 0.8) */
+}
+
+.fbia .fbia_header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(206, 204, 204, 0.468)
+}
+
+.fbia .fbia_header .fbia_menu{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    font-size: larger;
+    align-items: center; 
+    margin-right: 10px;
+}
+
+.fbia .fbia_header .fbia_menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    transition: transform 0.3s;
+    letter-spacing: 0.8px;
+}
+
+.fbia .fbia_header .fbia_menu a:hover{
+    color: darkolivegreen;
+    transform: translateY(100%);
+}
+
+.fbia_about{
+    display: flex;
+    justify-content: space-between;
+       
+}
+
+.fbia .fbia_header img{
+    height: 100px;
+    width: 150px;
+    
+}
+#aboutPhysio{
+    
+    height: 100%;
+    background-image: url('../images/physioBgImage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* filter: blur(8px); */
+    /* background-position: center;  */
+    /* background-color: antiquewhite; */
+    
+}
+
+.welcomeAbout{
+    padding-top: 100px;
+}
+
+.aboutPhysioFirstline{
+    
+    color: #0077BD;
+    letter-spacing: 3px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+.aboutPhysioSecondline{
+    font-size: 50px;
+    font-weight: 800;
+    
+}
+
+.aboutPhysioText{
+    margin-top: 30px;
+}
+
+.aboutPhysiobottomContents{
+    display: flex;
+    gap: 5px;
+    margin-top: 30px;
+    width: 200px;
+    background: blue;
+    height: 70px;
+    border-right: 8px solid yellow;
+    padding-right: 10px;
+}
+
+.aboutPhysioDiv{
+    display: flex;
+    background-color: #0077BD;
+    height: 75px;
+    width: 220px;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    /* background-image: url(/images/physioImg.png); */
+}
+
+/* .aboutPhysioVline{
+    width: 8px;
+    height:75px;
+    background-color: #E5B81F;
+} */
+.aboutPhysioImg{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    margin-left: 20px;
+}
