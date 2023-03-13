@@ -1,34 +1,34 @@
-*{
-    margin: 0;
-    /* background-color: rgba(240, 248, 255, 0.8) */
+.fbia .fbia_header .fbia_menu a::after{
+    content: attr(data-attr);
+    position: absolute;
+    left: 0;
+    bottom: 100%;
 }
 
-.fbia .fbia_header{
-    display: flex;
-    justify-content: space-between;
-    background-color: rgba(206, 204, 204, 0.468)
-}
-
-.fbia .fbia_header .fbia_menu{
-    display: flex;
-    list-style-type: none;
-    gap: 15px;
-    font-size: larger;
-    align-items: center; 
-    margin-right: 10px;
-}
-
-.fbia .fbia_header .fbia_menu a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    display: inline-block;
-    transition: transform 0.3s;
-    letter-spacing: 0.8px;
+.fbia .fbia_header .fbia_menu a::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    height: 2px;
+    background-color: #e2ffb1;
+    width: 100%;
 }
 
 .fbia .fbia_header .fbia_menu a:hover{
-    color: darkolivegreen;
+    color: #fff;
     transform: translateY(100%);
+}
+
+.fbia_about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fbia .fbia_header img{
+    height: 100px;
+    width: 150px;
+    filter: brightness(0) invert(1);
 }
 
 .fbia_about{
