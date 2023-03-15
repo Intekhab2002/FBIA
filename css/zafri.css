@@ -1,226 +1,321 @@
 /* Jafri */
-.fbia .fbia_about .fbia_about_detail .fbia_about_photo{
-    display: grid;
-    grid-template: column;
+.fbia .fbia_about .fbia_about_detail .fbia_about_photo {
+  display: grid;
+  grid-template: column;
 }
 
 /* .fbia{
     max-width: 1440px;
 } */
 
-.fbia .fbia_about{
-    /* align-items: center; */
-    margin: 90px 90px;
-    grid-template-columns: repeat(12, 1fr);
+.fbia .fbia_about {
+  /* align-items: center; */
+  margin: 90px 90px;
+  grid-template-columns: repeat(12, 1fr);
 }
 
-.fbia .fbia_about_detail a{
-    border: 2px solid rgb(89, 116, 178);
-    padding: 6px;
-    margin-top: 5px;
-    text-decoration: none;
-    color:rgba(12, 174, 233, 0.936);
-    font-size: 20px;
-    font-weight: bold;
+.fbia .fbia_about_detail a {
+  border: 2px solid rgb(89, 116, 178);
+  padding: 6px;
+  margin-top: 5px;
+  text-decoration: none;
+  color: rgba(12, 174, 233, 0.936);
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.fbia .fbia_about_detail .decorate{
-    color:rgba(83, 81, 76, 0.899);
-    text-transform: uppercase;
+.fbia .fbia_about_detail .decorate {
+  color: rgba(83, 81, 76, 0.899);
+  text-transform: uppercase;
 }
 
-
-.fbia .fbia_about_detail{
-    grid-column: 1/8;
+.fbia .fbia_about_detail {
+  grid-column: 1/8;
 }
 
-
-.fbia .fbia_about_detail .txt1{
-    text-transform: uppercase;
-    font-size: 40px;
-    font-weight: bold;
-    color:rgb(80, 117, 163);
-    
+.fbia .fbia_about_detail .txt1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(80, 117, 163);
 }
 
-.fbia .fbia_about_detail .txt2{
-    text-transform: uppercase;
-    font-size: 30px;
-    font-weight: bold;
-    color:rgb(80, 117, 163);
-    
+.fbia .fbia_about_detail .txt2 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(80, 117, 163);
 }
 
-.fbia .fbia_about_detail .txt3{
-    text-transform: uppercase;
-    font-size: 25px;
-    font-weight: bold;
-    color: rgb(80, 117, 163);
-    
+.fbia .fbia_about_detail .txt3 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(80, 117, 163);
 }
 
-.fbia .fbia_about_detail a{
-    border: 2px solid rgb(89, 116, 178);
-    padding: 6px;
-    position: absolute;
-    text-decoration: none;
-    color:#636553ef;
-    font-size: 20px;
-    font-weight: bold;
+.fbia .fbia_about_detail a {
+  border: 2px solid rgb(89, 116, 178);
+  padding: 6px;
+  position: absolute;
+  text-decoration: none;
+  color: #636553ef;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.fbia .fbia_about_detail .decorate{
-    color: #636553ef;
-    text-transform: uppercase;
-}  
-    
-
-.fbia .fbia_about_detail a:hover{
-    background-color: rgba(206, 156, 204, 0.899);
+.fbia .fbia_about_detail .decorate {
+  color: #636553ef;
+  text-transform: uppercase;
 }
 
-.fbia .fbia_about_photo{
-    grid-column: 8/12;
+.fbia .fbia_about_detail a:hover {
+  background-color: rgba(206, 156, 204, 0.899);
+}
+
+.fbia .fbia_about_photo {
+  grid-column: 8/12;
 }
 
 /* zafri */
 
-
 /* new-section */
-.fbia-address .bottom-section{
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-    
+.fbia-address .bottom-section {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
 }
 
-.fbia-address .bottom-section .fbia-address-detail{
-    box-shadow: 2px 6px 8px gray;
-    
+.fbia-address .bottom-section .fbia-address-detail {
+  box-shadow: 2px 6px 8px gray;
 }
 
-.fbia-address .bottom-section .fbia-callback{
-    box-shadow: 2px 6px 8px gray;
-    align-items: center;
+.fbia-address .bottom-section .fbia-callback {
+  box-shadow: 2px 6px 8px gray;
+  align-items: center;
 }
 
-.fbia-address .bottom-section .fbia-callback .fbia-contact-me{
-    align-items: center;
+.fbia-address .bottom-section .fbia-callback .fbia-contact-me {
+  align-items: center;
 }
 
-.fbia-address .bottom-section .fbia-address-detail .address-icon{
-    display: flex;
-    flex-direction: column;
+.fbia-address .bottom-section .fbia-address-detail .address-icon {
+  display: flex;
+  flex-direction: column;
 }
 
-.fbia-address .bottom-section .fbia-address-detail .address-icon img{
-    height: 30px;
-    width: 30px;
+.fbia-address .bottom-section .fbia-address-detail .address-icon img {
+  height: 30px;
+  width: 30px;
 }
 
-.fbia-address .bottom-section .fbia-address-detail{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 20px;
+.fbia-address .bottom-section .fbia-address-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
 }
 
-.fbia-address .bottom-section .fbia-address-detail .fbia-callback{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.fbia-address .bottom-section .fbia-address-detail .fbia-callback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.fbia-address .bottom-section .fbia-address-detail{
-    background-color: rgb(187, 218, 231);
-    width: 412px;
-    height: 500px;
+.fbia-address .bottom-section .fbia-address-detail {
+  background-color: rgb(187, 218, 231);
+  width: 412px;
+  height: 500px;
 }
 
-.fbia-address .bottom-section .fbia-callback{
-    background-color: whitesmoke;
-    width: 412px;
-    height: 500px;
-    padding: 20px;
+.fbia-address .bottom-section .fbia-callback {
+  background-color: whitesmoke;
+  width: 412px;
+  height: 500px;
+  padding: 20px;
 }
 
-.top-section{
-    
-    text-align: center;
-    font-size: 20px;
+.top-section {
+  text-align: center;
+  font-size: 20px;
 }
 
-
-.top-section .shadow1 .empty1{
-    background-color: gray;
-    width: 50px;
-    height: 2px;
-    display: flex;
-    margin-left: 700px;
-         
+.top-section .shadow1 .empty1 {
+  background-color: gray;
+  width: 50px;
+  height: 2px;
+  display: flex;
+  margin-left: 700px;
 }
 
-.fbia-address .fbia-address-detail .shadow2 .empty2{
-    background-color: gray;
-    width: 50px;
-    height: 3px;
-    margin-bottom: 28px; 
+.fbia-address .fbia-address-detail .shadow2 .empty2 {
+  background-color: gray;
+  width: 50px;
+  height: 3px;
+  margin-bottom: 28px;
 }
 
 .fbia-address .fbia-address-detail {
-    font-size: 20px;
-    
+  font-size: 20px;
 }
 
-.fbia-address .fbia-address-detail{
-    justify-content: space-around;
+.fbia-address .fbia-address-detail {
+  justify-content: space-around;
 }
 
-.fbia-address .fbia-callback .shadow3 .empty3{
-    background-color: gray;
-    width: 50px;
-    height: 3px;
-    margin-bottom: 20px; 
+.fbia-address .fbia-callback .shadow3 .empty3 {
+  background-color: gray;
+  width: 50px;
+  height: 3px;
+  margin-bottom: 20px;
 }
 
-.fbia-address .bottom-section .fbia-contact-me .name{
-    height: 30px;
-    width: 400px;
+.fbia-address .bottom-section .fbia-contact-me .name {
+  height: 30px;
+  width: 400px;
 }
 
-.fbia-address .bottom-section .fbia-contact-me .style1{
+.fbia-address .bottom-section .fbia-contact-me .style1 {
   color: red;
-  
 }
 
-.fbia-address .bottom-section .fbia-contact-me .phone-no{
-    height: 30px;
-    width: 400px;
+.fbia-address .bottom-section .fbia-contact-me .phone-no {
+  height: 30px;
+  width: 400px;
 }
 
-.fbia-address .bottom-section .fbia-contact-me .style2{
-    color: red;
-    
-  }
-
-.fbia-address .bottom-section .fbia-contact-me .your-email{
-    height: 30px;
-    width: 400px;
+.fbia-address .bottom-section .fbia-contact-me .style2 {
+  color: red;
 }
 
-.fbia-address .bottom-section .fbia-contact-me .subject{
-    height: 30px;
-    width: 400px;
+.fbia-address .bottom-section .fbia-contact-me .your-email {
+  height: 30px;
+  width: 400px;
 }
 
-.fbia-address .bottom-section .fbia-contact-me .message{
-    height: 125px;
-    width: 400px;
+.fbia-address .bottom-section .fbia-contact-me .subject {
+  height: 30px;
+  width: 400px;
 }
 
-.fbia-address .bottom-section .fbia-contact-me .button{
-    height: 30px;
-    width: 50px;
-    background-color: red;
-    color: white;
+.fbia-address .bottom-section .fbia-contact-me .message {
+  height: 125px;
+  width: 400px;
+}
+
+.fbia-address .bottom-section .fbia-contact-me .button {
+  height: 30px;
+  width: 50px;
+  background-color: red;
+  color: white;
+}
+
+/* body {
+  background-color: azure;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  height: 100vh;
+  width: 100vw;
+} */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  display: flex;
+  background-color: rgba(83, 83, 83);
+  box-shadow: 2px 2px 4px 6px rgb(118, 163, 182);
+  max-width: 1024px;
+  max-height: 100%;
+  justify-content: space-between;
+  height: 250px;
+  margin-left: 207px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  align-items: center;
+  box-shadow: 40px 40px white, -40px -40px white, 40px -40px white,
+    -40px 40px white, 43px -43px 10px rgb(6, 6, 6), 43px 43px 10px rgb(6, 6, 6),
+    -43px 43px 10px rgb(6, 6, 6), -43px -43px 10px rgb(6, 6, 6),
+    80px -80px white, 80px 80px white, -80px 80px white, -80px -80px white;
+}
+
+.main .main-child {
+  display: flex;
+  width: 346px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-left: 50px;
+  height: 180px;
+}
+
+.main .main-child h2 {
+  color: rgb(250, 240, 240);
+}
+
+.main .main-child p {
+  color: rgb(250, 240, 240);
+}
+
+.main .child-son {
+  display: flex;
+  flex-direction: row;
+  width: 346px;
+}
+
+.main .main-child .antique {
+  color: rgb(15, 155, 155);
+}
+
+.main .main-child p {
+  padding: 0 5px;
+  border-right: 2px solid rgb(250, 240, 240);
+}
+
+.main .main-child #none {
+  border: none;
+}
+
+/* 2nd part */
+
+.main .main-address .gmail {
+  color: rgb(15, 155, 155);
+}
+
+.main .main-address h4 {
+  color: rgb(250, 240, 240);
+  margin: 10px 0 0 10px;
+}
+
+/* 3rd part */
+
+.main .comp-about {
+  display: flex;
+  flex-direction: column;
+  width: 346px;
+}
+
+.main .comp-about h3 {
+  color: rgb(250, 240, 240);
+  margin-bottom: 15px;
+}
+
+.main .main-address {
+  display: flex;
+  flex-direction: column;
+}
+
+.main .main-address .icon {
+  display: flex;
+  justify-content: baseline;
+  align-items: flex-start;
+}
+
+.main .main-address .material-icons {
+  font-size: 40px;
+  background-color: black;
+  color: white;
 }
