@@ -72,3 +72,64 @@
     background-color: rgb(191, 234, 251);
     color: rgb(15, 15, 15);
 }
+/* APPOINTMENT */
+.appointment{
+    margin: 0 auto;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/fbiamake2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 50px;
+}
+.make-content{
+    width: 330px;
+}
+.make-content h1{
+    font-size: 40px;
+    color: #fff;
+}
+.make-content p{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #fff;
+}
+.make-content p span{
+    font-weight: bold;
+    color: #fff;
+}
+.contact-content{
+    background-color: rgb(229, 239, 254);
+    padding: 20px;
+    border-radius: 18px;
+}
+.contact-content .box{
+    width: 300px;
+    height: 40px;
+    border: none;
+    padding-left: 8px;
+    border-radius: 8px;
+}
+.contact-content textarea{
+    width: 300px; 
+    height: 100px;
+    border: none;
+    padding-left: 8px;
+    padding-top: 8px;
+    border-radius: 8px;
+}
+.contact-content .btn{
+    border: none;
+    background-color: rgb(114, 114, 254);
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+.contact-content .btn:hover{
+    background-color: rgb(155, 206, 250);
+    color: rgb(88, 87, 87);
+    cursor: pointer;
+}
