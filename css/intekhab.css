@@ -8,6 +8,11 @@
     justify-content: space-between;
     background-color: rgb(94 139 61 / 79%);
     padding: 0px 70px;
+    position: sticky;
+    top: 0;
+}
+.hamburger{
+    display: none;
 }
 
 .fbia .fbia_header .fbia_menu{

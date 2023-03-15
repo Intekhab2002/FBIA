@@ -1,0 +1,54 @@
+@media(max-width: 424px) {
+    
+    .fbia{
+        height: auto;
+    }
+
+    .fbia .fbia_header{
+        display: flex;
+        position: absolute;
+        z-index: 1;
+        height: 100vh;
+        transform: translateY(-130%);
+        align-items: center;
+        justify-content: center;
+        transition: all 0.6s ease;
+        
+    }
+
+    .fbia .fbia_header img {
+        display: none;
+    }
+
+    .fbia .fbia_header .fbia_menu {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100vh;
+    
+    }
+
+    .hamburger {
+        color: rgb(80, 117, 163);
+        display: block;
+        top: 6;
+        left: 6;
+        z-index: 1;
+        position: absolute;
+    }
+    .fbia .slide{
+        transform: translateY(-30%);
+       
+    }
+    .fbia .hamburger .fa-xmark{
+        display: none;
+    }
+     .fbia .close .fa-xmark {
+        display: block;
+        z-index: 1;
+        color: white;
+      }
+      .fbia .close .fa-bars{
+        display: none;
+      }
+
+}
