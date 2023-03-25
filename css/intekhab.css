@@ -126,20 +126,25 @@
 
 .fbia_about_blue_box{
     display: flex;
-    gap: 5px;
     width: 200px;
-    background: blue;
-    height: 70px;
-    /* border-right: 8px solid yellow; */
-    padding-right: 10px;
+    background: rgb(20, 170, 172);
+    padding: 5px 0;
     align-items: center;
     justify-content: space-evenly;
     margin-left: 70px;
+    position: relative;
 }
 
 .fbia_about_blue_box::after{
     content: '';
     border-right: 8px solid yellow;
+    position: absolute;
+    left: 15rem;
+    height: 100%;
+}
+
+.fbia_about_blue_box_txt{
+    color: white;
 }
 
 .aboutPhysioDiv{
@@ -160,8 +165,5 @@
 } */
 .aboutPhysioImg{
     width: 75px;
-    height: 75px;
-    border-radius: 50%;
-    border: 1px solid blue;
     margin-left: 20px;
 }
