@@ -1,4 +1,13 @@
 /* Jafri */
+.fbia_promotion{
+  background: rgb(20, 170, 172);
+  color: white;
+  padding: 0.1rem;
+  cursor: pointer;
+  letter-spacing: 0.03rem;
+  font-weight: 700;
+  font-size: 20px;
+}
 .fbia .fbia_about .fbia_about_detail .fbia_about_photo {
   display: grid;
   grid-template: column;
@@ -72,7 +81,8 @@
 }
 
 .fbia .fbia_about_detail a:hover {
-  background-color: rgba(206, 156, 204, 0.899);
+  background-color: rgba(135, 204, 236, 0.899);
+  color: #fff;
 }
 
 .fbia .fbia_about_photo {
