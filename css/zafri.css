@@ -1,12 +1,11 @@
 /* Jafri */
-.fbia_promotion{
-  background: rgb(20, 170, 172);
+.fbia-promotion{
+  background-color: rgb(20, 170, 172);
+  font-weight: 700;
   color: white;
   padding: 0.1rem;
   cursor: pointer;
   letter-spacing: 0.03rem;
-  font-weight: 700;
-  font-size: 20px;
 }
 .fbia .fbia_about .fbia_about_detail .fbia_about_photo {
   display: grid;
@@ -334,3 +333,5 @@
   background-color: black;
   color: white;
 }
+
+
